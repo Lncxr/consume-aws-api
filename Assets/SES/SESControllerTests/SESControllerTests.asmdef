@@ -1,0 +1,30 @@
+{
+    "name": "SESControllerTests",
+    "rootNamespace": "",
+    "references": [
+        "SES",
+        "UnityEditor.TestRunner",
+        "UnityEngine.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "AWSSDK.Core.dll",
+        "AWSSDK.SecurityToken.dll",
+        "AWSSDK.SimpleEmail.dll",
+        "Microsoft.Bcl.AsyncInterfaces.dll",
+        "NSubstitute.dll",
+        "nunit.framework.dll",
+        "System.Runtime.CompilerServices.Unsafe.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

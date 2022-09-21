@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b1ad0e6ba5fc094abaf2753443931cd, type: 3}
+  m_Name: SES
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 2800000, guid: 2c0ae5608a8a5894e84611ce664cf8d9, type: 3}
+  IconMaxWidth: 128
+  Title: ReadMe - SES
+  Sections:
+  - Heading: 
+    Text: 
+    LinkText: 
+    URL: 
+  - Heading: SES Client Code
+    Text: This assembly contains the client code that we'll use to leverage the AWS
+      SDK and talk to relevant resources (SES), the main class 'SESController' takes
+      an instance of an 'IAmazonSimpleEmailService' in its constructor signature,
+      which keeps the creation of our client code separate from the creation of its
+      main dependency. This keeps our code loosely coupled and, most importantly,
+      ensures it's testable.
+    LinkText: 
+    URL: 

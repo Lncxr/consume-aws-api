@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b1ad0e6ba5fc094abaf2753443931cd, type: 3}
+  m_Name: Tests
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 2800000, guid: 2c0ae5608a8a5894e84611ce664cf8d9, type: 3}
+  IconMaxWidth: 128
+  Title: ReadMe - Tests
+  Sections:
+  - Heading: 
+    Text: 
+    LinkText: 
+    URL: 
+  - Heading: SES Client Tests
+    Text: 'This folder contains unit tests for our SES client code, it''s particularly
+      important that we make full use of NSubstitute to mock the ''AmazonSimpleEmailServiceClient''
+      we use to interact with AWS cloud services (so we don''t send any real POST
+      requests - which we pay for!). By substituting the dependency via the relevant
+      interface ''IAmazonSimpleEmailService'' we can verify our client code''s interaction
+      with the dependency before making any real calls to AWS resources. '
+    LinkText: Writing test cases based on the properties of a supplied object
+    URL: https://www.clearlyagile.com/agile-blog/using-nsubstitute-to-check-if-method-called-with-particular-object
+  - Heading: 
+    Text: 
+    LinkText: '''Unhappy path'' test cases using async-task logic'
+    URL: https://blog.krusen.dk/nsubstitute-make-async-method-throw
+  - Heading: 
+    Text: 
+    LinkText: Helpful breakdown of how to use NSubstitute for mocking
+    URL: https://itenium.be/blog/dotnet/nsubstitute-tutorial/

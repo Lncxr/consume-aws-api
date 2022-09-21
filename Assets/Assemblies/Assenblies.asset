@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b1ad0e6ba5fc094abaf2753443931cd, type: 3}
+  m_Name: Assenblies
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 2800000, guid: 2c0ae5608a8a5894e84611ce664cf8d9, type: 3}
+  IconMaxWidth: 128
+  Title: ReadMe - Assemblies
+  Sections:
+  - Heading: 
+    Text: 
+    LinkText: 
+    URL: 
+  - Heading: AWS Assemblies
+    Text: These assemblies (.dll files) must be included to resolve dependencies
+      within the AWS SDK that our client code will be talking to. At the root level
+      of this project you'll also find a 'link.xml' config file that prevents these
+      assemblies from being stripped when the app is built.
+    LinkText: '"Special considerations for Unity support" '
+    URL: https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/unity-special.html
+  - Heading: NSubstitute & CastleCore
+    Text: These assemblies are used for unit testing, NSubstitute is our mocking
+      library and CastleCore provides a way of testing MonoBehaviours using dynamic
+      (composition-based) proxies.
+    LinkText: 
+    URL: 
+  - Heading: MimeKit
+    Text: This library is used to create a 'MimeMessage' object that we can then
+      write directly to a stream and leverage the SES API (rather than SmtpClient
+      which is obsolete) to send emails with attachments.
+    LinkText: 
+    URL: 
+  - Heading: BouncyCastle
+    Text: This is a lightweight cryptography API used by MimeKit.
+    LinkText: 
+    URL: 

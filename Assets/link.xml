@@ -1,0 +1,12 @@
+<!-- Config file instructing UnityLinker not to strip relevant AWS assemblies -->
+<linker>
+    <assembly fullname="AWSSDK.Core" preserve="all"/>
+    <assembly fullname="AWSSDK.SimpleEmail" preserve="all"/>
+    <assembly fullname="AWSSDK.CognitoIdentity" preserve="all"/>
+    <assembly fullname="AWSSDK.CognitoIdentityProvider" preserve="all"/>
+    <assembly fullname="AWSSDK.SecurityToken" preserve="all"/>
+    <assembly fullname="Amazon.Extensions.CognitoAuthentication" preserve="all"/>
+    <assembly fullname="Microsoft.Bcl.AsyncInterfaces" preserve="all"/>
+    <assembly fullname="System.Runtime.CompilerServices.Unsafe" preserve="all"/>
+    <assembly fullname="System.Threading.Tasks.Extensions" preserve="all"/>
+</linker>
