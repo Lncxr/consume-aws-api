@@ -1,8 +1,6 @@
 # Consume AWS API in Unity
 Repository demonstrating the consumption of a third-party API (AWS SES) in Unity using IoC and behaviour-driven development.
 
-# ![死人憑](./Assets/StreamingAssets/texture.png)
-
 ## Testing
 
 ### Mocking Dependencies with NSubstitute
